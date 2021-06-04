@@ -1,0 +1,15 @@
+/*
+Edited by Matthew on November 9, 2020
+*/
+#grid       { font-size: 40px; font-family: Courier New, monospace; }
+.column		{ border-left-style: solid; overflow: auto;}
+.row        { height: 48px;}
+.rowTop     { border-bottom-style: solid; }
+.rowMiddle  { border-bottom-style: solid; }
+.rowBottom  {  }
+.rowOdd     { background-color: lightgray; }
+.rowEven    { background-color: darkgray; }
+.cell       { float: left; width: 48px; text-align: center; }
+#turn       { display: none; font-size: 40px; font-family: Courier New, monospace; }
+.win        { background-color: yellow; }
+.draw        { background-color: red; }
